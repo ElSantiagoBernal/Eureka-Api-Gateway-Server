@@ -12,11 +12,13 @@ import java.util.Date;
 public class FlightDTO {
 
     private String airline;
+    private String plate;
     private Date departureDate;
     private Date returnDate;
     private Boolean isDirect;
     private Integer durationHours;
-    private Integer originId;
-    private Integer destinyId;
+    private Integer passengersNumber;
+    private Long originId;
+    private Long destinyId;
 
 }

@@ -25,6 +25,9 @@ public class Flight implements Serializable {
     @Column(nullable = false)
     private String airline;
 
+    @Column(nullable = false)
+    private String plate;
+
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     @Column(nullable = false)
     private Date departureDate;
@@ -33,12 +36,14 @@ public class Flight implements Serializable {
     @Column(nullable = false)
     private Date returnDate;
 
-
     @Column(nullable = false)
     private Boolean isDirect;
 
     @Column(nullable = false)
     private Integer durationHours;
+
+    @Column(nullable = false)
+    private Integer passengersNumber;
 
     @OneToOne(optional = true)
     @JoinColumn(name = "origins", referencedColumnName = "id")

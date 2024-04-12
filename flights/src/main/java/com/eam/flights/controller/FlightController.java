@@ -20,7 +20,7 @@ public class FlightController {
 
     @PostMapping
     public ResponseEntity<Response<Flight>> save(@RequestBody FlightDTO flightDTO){
-        return ResponseEntity.status(HttpStatus.CREATED).body( new Response<>("Autor creado correctamente", flightService.save(flightDTO)) );
+        return ResponseEntity.status(HttpStatus.CREATED).body( new Response<>("Vuelo creado correctamente", flightService.save(flightDTO)) );
     }
 
     @GetMapping
@@ -28,7 +28,7 @@ public class FlightController {
         return ResponseEntity.status(HttpStatus.OK).body( new Response<>("", flightService.findAll()) );
     }
 
-    @GetMapping("/{isbnAutor}")
+    @GetMapping("/{plate}")
     public ResponseEntity<Response<Flight>> findAll(@PathVariable Long id){
         return ResponseEntity.status(HttpStatus.OK).body( new Response<>("", flightService.findById(id)) );
     }
