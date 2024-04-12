@@ -1,4 +1,4 @@
-package com.eam.flights.models;
+package com.eam.hosts.models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -6,23 +6,27 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.io.Serializable;
-
 @Entity
 @NoArgsConstructor
 @Data
-@Table(name = "origins")
+@Table(name = "features")
 @Builder
 @AllArgsConstructor
-public class Origin implements Serializable {
+public class Feature {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column(nullable = false)
-    private String name;
+    private Boolean hasSwimmingPool;
 
     @Column(nullable = false)
-    private String description;
+    private Boolean hasBuffet;
+
+    @Column(nullable = false)
+    private Boolean hasWifi;
+
+    @Column(nullable = false)
+    private Boolean hasFridge;
+
 }

@@ -3,7 +3,7 @@ package com.eam.flights.controller;
 import com.eam.flights.dto.FlightDTO;
 import com.eam.flights.dto.Response;
 import com.eam.flights.models.Flight;
-import com.eam.flights.servicies.FlightService;
+import com.eam.flights.servicies.impl.FlightServiceImpl;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -16,7 +16,7 @@ import java.util.List;
 @AllArgsConstructor
 public class FlightController {
 
-    private final FlightService flightService;
+    private final FlightServiceImpl flightService;
 
     @PostMapping
     public ResponseEntity<Response<Flight>> save(@RequestBody FlightDTO flightDTO){
@@ -29,7 +29,7 @@ public class FlightController {
     }
 
     @GetMapping("/{plate}")
-    public ResponseEntity<Response<Flight>> findAll(@PathVariable Long id){
-        return ResponseEntity.status(HttpStatus.OK).body( new Response<>("", flightService.findById(id)) );
+    public ResponseEntity<Response<Flight>> findAll(@PathVariable String plate){
+        return ResponseEntity.status(HttpStatus.OK).body( new Response<>("", flightService.findByPlate(plate)) );
     }
 }

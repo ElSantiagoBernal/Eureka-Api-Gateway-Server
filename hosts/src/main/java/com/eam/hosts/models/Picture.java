@@ -1,4 +1,4 @@
-package com.eam.flights.models;
+package com.eam.hosts.models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -6,15 +6,13 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.io.Serializable;
-
 @Entity
 @NoArgsConstructor
 @Data
-@Table(name = "origins")
+@Table(name = "pictures")
 @Builder
 @AllArgsConstructor
-public class Origin implements Serializable {
+public class Picture {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -24,5 +22,6 @@ public class Origin implements Serializable {
     private String name;
 
     @Column(nullable = false)
-    private String description;
+    private String path;
+
 }

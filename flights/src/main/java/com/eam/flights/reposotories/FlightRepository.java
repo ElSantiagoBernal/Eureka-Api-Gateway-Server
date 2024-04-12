@@ -7,4 +7,5 @@ import java.util.Optional;
 
 public interface FlightRepository extends JpaRepository<Flight, Long> {
     Optional<Flight> findByPlate(String plate);
+
 }
