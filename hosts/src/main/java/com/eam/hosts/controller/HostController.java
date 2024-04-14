@@ -1,9 +1,6 @@
 package com.eam.hosts.controller;
 
-import com.eam.hosts.dto.FeatureDTO;
-import com.eam.hosts.dto.HostDTO;
-import com.eam.hosts.dto.PictureDTO;
-import com.eam.hosts.dto.Response;
+import com.eam.hosts.dto.*;
 import com.eam.hosts.models.Host;
 import com.eam.hosts.servicies.HostService;
 import com.eam.hosts.servicies.impl.HostServiceImpl;
@@ -22,8 +19,8 @@ public class HostController {
     private final HostService hostService;
 
     @PostMapping
-    public ResponseEntity<Response<Host>> save(@RequestBody HostDTO hostDTO, @RequestBody FeatureDTO featureDTO, @RequestBody PictureDTO pictureDTO){
-        return ResponseEntity.status(HttpStatus.CREATED).body( new Response<>("Alojamiento creado correctamente", hostService.save(hostDTO, featureDTO, pictureDTO)) );
+    public ResponseEntity<Response<Host>> save(@RequestBody RequestDTO requestDTO){
+        return ResponseEntity.status(HttpStatus.CREATED).body( new Response<>("Alojamiento creado correctamente", hostService.save(requestDTO.getHostDTO(), requestDTO.getFeatureDTO(), requestDTO.getPictureDTO())) );
     }
 
     @GetMapping
