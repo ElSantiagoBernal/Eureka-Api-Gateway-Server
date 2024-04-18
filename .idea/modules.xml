@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flights/ApiParcial2.flights.main.iml" filepath="$PROJECT_DIR$/.idea/modules/flights/ApiParcial2.flights.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hosts/ApiParcial2.hosts.main.iml" filepath="$PROJECT_DIR$/.idea/modules/hosts/ApiParcial2.hosts.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/users/ApiParcial2.users.main.iml" filepath="$PROJECT_DIR$/.idea/modules/users/ApiParcial2.users.main.iml" />
+    </modules>
+  </component>
+</project>

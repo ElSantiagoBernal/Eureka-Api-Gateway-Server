@@ -4,7 +4,116 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70154e46-0583-4f67-a248-d2528d8d7ead" name="Changes" comment="" />
+    <list default="true" id="70154e46-0583-4f67-a248-d2528d8d7ead" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flights/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hosts/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/dto/Destiny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/dto/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/dto/Origin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/dto/PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/dto/ReservationPostDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/dto/ReservationQueryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/dto/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/models/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/reposotories/ReservationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/servicies/ReservationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/servicies/exceptions/ReservationNotFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/servicies/impl/ReservationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/comments/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/src/main/kotlin/com/eam/comments/CommentsApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/comments/src/main/kotlin/com/eam/parcial/CommentsApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/src/main/kotlin/com/eam/comments/controller/CommentController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/comments/src/main/kotlin/com/eam/parcial/controller/CommentController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/src/main/kotlin/com/eam/comments/dto/CommentDTO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/comments/src/main/kotlin/com/eam/parcial/dto/CommentDTO.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/src/main/kotlin/com/eam/comments/dto/Response.kt" beforeDir="false" afterPath="$PROJECT_DIR$/comments/src/main/kotlin/com/eam/parcial/dto/Response.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/src/main/kotlin/com/eam/comments/models/Comment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/comments/src/main/kotlin/com/eam/parcial/models/Comment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/src/main/kotlin/com/eam/comments/repositories/CommentRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/comments/src/main/kotlin/com/eam/parcial/repositories/CommentRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/src/main/kotlin/com/eam/comments/services/CommentService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/comments/src/main/kotlin/com/eam/parcial/services/CommentService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/src/main/kotlin/com/eam/comments/services/impl/CommentServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/comments/src/main/kotlin/com/eam/parcial/services/impl/CommentServiceImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/comments/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/src/test/kotlin/com/eam/comments/CommentsApplicationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/comments/src/test/kotlin/com/eam/parcial/CommentsApplicationTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/flights/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/FlightsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/FlightsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/controller/DestinyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/controller/DestinyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/controller/FlightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/controller/FlightController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/controller/OriginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/controller/OriginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/dto/DestinyDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/dto/DestinyDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/dto/FlightDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/dto/FlightDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/dto/OriginDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/dto/OriginDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/dto/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/dto/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/models/Destiny.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/models/Destiny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/models/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/models/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/models/Origin.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/models/Origin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/reposotories/DestinyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/reposotories/DestinyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/reposotories/FlightRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/reposotories/FlightRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/reposotories/OriginRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/reposotories/OriginRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/servicies/DestinyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/servicies/DestinyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/servicies/FlightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/servicies/FlightService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/servicies/OriginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/servicies/OriginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/servicies/impl/DestinyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/servicies/impl/DestinyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/servicies/impl/FlightServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/servicies/impl/FlightServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/java/com/eam/flights/servicies/impl/OriginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/java/com/eam/parcial/servicies/impl/OriginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flights/src/test/java/com/eam/flights/FlightsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/flights/src/test/java/com/eam/parcial/FlightsApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/HostsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/HostsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/controller/HostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/controller/HostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/controller/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/controller/ReservationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/dto/FeatureDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/dto/FeatureDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/dto/HostDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/dto/HostDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/dto/PictureDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/dto/PictureDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/dto/RequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/dto/RequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/dto/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/dto/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/models/Feature.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/models/Feature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/models/Host.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/models/Host.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/models/Picture.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/models/Picture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/reposotories/FeatureRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/reposotories/FeatureRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/reposotories/HostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/reposotories/HostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/reposotories/PictureRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/reposotories/PictureRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/servicies/FeatureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/servicies/FeatureService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/servicies/HostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/servicies/HostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/servicies/PictureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/servicies/PictureService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/servicies/impl/FeatureServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/servicies/impl/FeatureServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/servicies/impl/HostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/servicies/impl/HostServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/java/com/eam/hosts/servicies/impl/PictureServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/java/com/eam/parcial/servicies/impl/PictureServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosts/src/test/java/com/eam/hosts/HostsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/src/test/java/com/eam/parcial/HostsApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/users/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/eam/users/UsersApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/eam/parcial/UsersApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/eam/users/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/eam/parcial/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/eam/users/dto/ClientDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/eam/parcial/dto/ClientDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/eam/users/dto/PhoneNumberDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/eam/parcial/dto/PhoneNumberDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/eam/users/dto/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/eam/parcial/dto/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/eam/users/models/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/eam/parcial/models/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/eam/users/models/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/eam/parcial/models/PhoneNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/eam/users/repositories/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/eam/parcial/repositories/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/eam/users/repositories/PhoneNumberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/eam/parcial/repositories/PhoneNumberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/eam/users/services/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/eam/parcial/services/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/eam/users/services/PhoneNumberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/eam/parcial/services/PhoneNumberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/eam/users/services/impl/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/eam/parcial/services/impl/ClientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/eam/users/services/impl/PhoneNumberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/eam/parcial/services/impl/PhoneNumberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/test/java/com/eam/users/UsersApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/test/java/com/eam/parcial/UsersApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +123,30 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,32 +166,164 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Santiago/Desktop/Bombunbum/Eureka-Api-Gateway-Server/users"
+    "last_opened_file_path": "C:/Users/USUARIO/Desktop/COFINCAFE/cofi-onboarding/cofi-onboarding-backend",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Me\EAM\BOMBOMBUN\Eureka-Api-Gateway-Server" />
       <recent name="C:\Users\Santiago\Desktop\Bombunbum\Eureka-Api-Gateway-Server\flights\src\main\java\com\eam\flights\controller" />
       <recent name="C:\Users\Santiago\Desktop\Bombunbum\Eureka-Api-Gateway-Server\users\src\main\java\com\eam\users" />
       <recent name="C:\Users\Santiago\Desktop\Bombunbum\Eureka-Api-Gateway-Server\hosts\src\main\java\com\eam\hosts" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Eureka-Api-Gateway-Server" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle bootRun" />
+      <command value="gradle comments:clean" />
+      <command value="gradle comments:bootJar" />
+      <command value="gradle flights:clean" />
+      <command value="gradle flights:bootJar" />
+      <command value="gradle gateway:clean" />
+      <command value="gradle gateway:bootJar" />
+      <command value="gradle hosts:clean" />
+      <command value="gradle hosts:bootJar" />
+      <command value="gradle users:clean" />
+      <command value="gradle eureka-server:clean" />
+      <command value="gradle eureka-server:bootJar" />
+      <command value="gradle users:bootJar" />
+      <command value="gradle clean" />
+      <command value="gradle bootJar" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.Eureka-Api-Gateway-Server [bootJar]">
+    <configuration name="Eureka-Api-Gateway-Server [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Eureka-Api-Gateway-Server" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Eureka-Api-Gateway-Server [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
     </configuration>
+    <configuration name="Eureka-Api-Gateway-Server [eureka-server:bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="eureka-server:bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Eureka-Api-Gateway-Server [eureka-server:clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="eureka-server:clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Eureka-Api-Gateway-Server [users:bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="users:bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Eureka-Api-Gateway-Server [eureka-server:bootJar]" />
+        <item itemvalue="Gradle.Eureka-Api-Gateway-Server [eureka-server:clean]" />
+        <item itemvalue="Gradle.Eureka-Api-Gateway-Server [clean]" />
+        <item itemvalue="Gradle.Eureka-Api-Gateway-Server [bootJar]" />
+        <item itemvalue="Gradle.Eureka-Api-Gateway-Server [users:bootJar]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

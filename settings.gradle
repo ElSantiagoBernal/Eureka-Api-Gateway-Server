@@ -1,0 +1,8 @@
+rootProject.name = 'ApiParcial2'
+include 'comments'
+include 'flights'
+include 'hosts'
+include 'users'
+include 'gateway'
+include 'eureka-server'
+
